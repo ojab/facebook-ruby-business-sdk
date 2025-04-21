@@ -31,8 +31,6 @@ module FacebookAds
 
   alias_method :config, :configure
 
-  require 'facebook_ads/ruby2patch'
-
   require 'facebook_ads/config'
   require 'facebook_ads/errors'
   require 'facebook_ads/session'
